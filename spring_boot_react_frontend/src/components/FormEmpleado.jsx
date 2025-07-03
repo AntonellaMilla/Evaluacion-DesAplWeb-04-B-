@@ -3,6 +3,9 @@ import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import axios from "axios";
 
+import "./FormEmpleado.css";
+
+
 function FormEmpleado() {
   const [empleado, setEmpleado] = useState({
     nombre: "",

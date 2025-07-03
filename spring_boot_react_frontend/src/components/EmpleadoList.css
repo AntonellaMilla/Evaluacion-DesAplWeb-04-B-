@@ -1,0 +1,137 @@
+/* src/components/EmpleadoList.css */
+
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.card-header {
+  background: linear-gradient(90deg, #007bff, #00bfff);
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.card-body {
+  background-color: #f8f9fa;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+  font-size: 15px;
+}
+
+.table thead th {
+  background-color: #e9ecef;
+  color: #495057;
+}
+
+.btn-outline-warning,
+.btn-outline-danger {
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.btn-outline-warning:hover {
+  background-color: #ffc107;
+  color: white;
+}
+
+.btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-light {
+  background-color: #ffffff;
+  color: #007bff;
+  border: 1px solid #dee2e6;
+  transition: background-color 0.3s ease;
+}
+
+.btn-light:hover {
+  background-color: #f1f1f1;
+}
+
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.card-header h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.table th {
+  font-weight: 600;
+  font-size: 14px;
+  color: #343a40;
+}
+
+.table td {
+  font-size: 14px;
+  color: #495057;
+}
+
+.btn {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.text-muted {
+  font-style: italic;
+}
+
+
+
+/* Estilo general para la fuente */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Estilo para encabezados de la tabla */
+.table th {
+  font-weight: 600;
+  font-size: 15px;
+  color: #2c3e50;
+  background-color: #f1f3f5;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Estilo para celdas de la tabla */
+.table td {
+  font-size: 14px;
+  color: #34495e;
+  vertical-align: middle;
+}
+
+/* Estilo especial para ID */
+.table td:first-child {
+  font-weight: 600;
+  color: #007bff;
+}
+
+/* Estilo especial para NOMBRE */
+.table td:nth-child(2) {
+  color: #2c3e50;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
+/* Estilo especial para APELLIDO */
+.table td:nth-child(3) {
+  color: #6c757d;
+  font-style: italic;
+}
+
+/* Estilo especial para EMAIL (opcional) */
+.table td:nth-child(4) {
+  color: #495057;
+  font-size: 13.5px;
+}
